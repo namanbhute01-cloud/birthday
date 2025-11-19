@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Letter</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div style="margin-top: 10vh; text-align: center;">
+        <h2>A Special Note 💌</h2>
+        <p style="font-size: 0.9rem; color: #777;">Tap the envelope to open</p>
+
+        <!-- Interactive Envelope -->
+        <div class="envelope-wrapper" onclick="openEnvelope()">
+            <div class="envelope">
+                <div class="flap"></div>
+                <div class="pocket"></div>
+                <div class="letter">
+                    <p id="type-text"></p> <!-- Text appears here -->
+                </div>
+            </div>
+        </div>
+
+        <div id="next-btn" style="opacity: 0; transition: opacity 1s; pointer-events: none; margin-top: 50px;">
+            <a href="gallery.html" class="btn">See Memories ➡️</a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

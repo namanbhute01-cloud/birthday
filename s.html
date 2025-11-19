@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Celebration!</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Quicksand:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body class="fade-in" onload="startParty()">
+
+    <div class="hero">
+        <div class="content">
+            <h1>Let's Party! 🎂</h1>
+            
+            <div id="countdown" class="countdown-box">
+                <div class="time"><span id="days">00</span>D</div>
+                <div class="time"><span id="hours">00</span>H</div>
+                <div class="time"><span id="minutes">00</span>M</div>
+                <div class="time"><span id="seconds">00</span>S</div>
+            </div>
+
+            <p>Wishing you the best year ahead!</p>
+            <br>
+            <a href="index.html" class="btn-next">Start Over ↺</a>
+        </div>
+    </div>
+
+    <!-- Confetti Library -->
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
